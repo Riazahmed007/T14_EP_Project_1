@@ -1,0 +1,62 @@
+/* small phone responsive css */
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+	.btn {
+	    padding: 8px 20px;
+	    font-size: 14px;
+	}
+	.d2c_hero .d2c_hero_btn a {
+	    margin-right: 10px;
+	}
+	.d2c_hero .d2c_hero_title {
+	    font-size: 32px;
+		margin-top: 20px;
+	}
+	.d2c_hero .d2c_hero_img {
+	    position: relative;
+	    width: 100%;
+	}
+}
+
+/* Tab responsive css */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.btn {
+	    padding: 8px 25px;
+	    font-size: 16px;
+	}
+	.d2c_hero .d2c_hero_btn a {
+	    margin-right: 10px;
+	}
+	.d2c_hero {	    
+		height: 70vh;
+	}
+	.d2c_hero .d2c_hero_title {
+	    font-size: 32px;
+	}
+	.d2c_hero .d2c_hero_img {
+	    position: relative;
+	    width: 100%;
+	}
+}
+
+/* small laptop responsive css */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.d2c_hero {	    
+		height: 80vh;
+	}
+	.d2c_hero .d2c_hero_title {
+	    font-size: 42px;
+	}
+}
+
+/* 
+	<!-- 
+      KIT Name: 10+ Hero Section – Bootstrap Bundle
+      Product URL: https://www.designtocodes.com/product/10-hero-section-bootstrap-bundle/
+      Product Description: The Hero section kit is made of all the basic elements you need to create a stunning website, from the start. 
+      Author: designtocodes.com
+      Author URI: https://www.designtocodes.com/
+    -->
+*/
