@@ -49,7 +49,7 @@ if(isset($_GET['success'])){
             </div>
 
             <div class="form-outline mb-4">
-              <input type="password" name="pass" id="typePasswordX-2" placeholder="Password" class="form-control form-control-lg transparent-input text-secondary" />
+              <input type="password" name="pass" id="typePasswordX-2" placeholder="Password" minlength="6" class="form-control form-control-lg transparent-input text-secondary" />
             </div>
 
             <!-- Checkbox -->
